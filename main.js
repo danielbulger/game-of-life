@@ -181,4 +181,4 @@ function main() {
 	update(cells, nextGeneration, context, width, height);
 }
 
-main();
+window.onload = main;
